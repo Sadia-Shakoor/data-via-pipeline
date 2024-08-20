@@ -11,3 +11,5 @@ steps:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+  serviceAccount: 'projects/data-on-cloud-431403/serviceAccounts/github@data-on-cloud-431403.iam.gserviceaccount.com'
+
