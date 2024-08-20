@@ -1,0 +1,6 @@
+# Function dependencies, for example:
+# package>=version
+google-cloud-storage
+pymysql
+functions-framework
+cloud-sql-python-connector
