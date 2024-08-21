@@ -8,6 +8,8 @@ steps:
   - --trigger-http
   - --runtime=python39
   - --allow-unauthenticated
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['functions', 'add-iam-policy-binding', 'hello_http', '--region', 'us-central1', '--member=allUsers', '--role=roles/cloudfunctions.invoker']
 
 options:
   logging: CLOUD_LOGGING_ONLY
