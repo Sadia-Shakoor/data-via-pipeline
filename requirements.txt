@@ -1,6 +1,7 @@
 # Function dependencies, for example:
 # package>=version
-google-cloud-storage
-pymysql
+#google-cloud-storage
+#pymysql
 functions-framework
-cloud-sql-python-connector
+
+#cloud-sql-python-connector
